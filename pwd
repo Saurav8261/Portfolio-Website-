@@ -1,0 +1,437 @@
+[33mcommit 9c5b8b6be7332e89908866d4a2074b1cf91fa4d9[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Saurav8261 <120124377+Saurav8261@users.noreply.github.com>
+Date:   Sat Mar 23 19:03:32 2024 +0530
+
+    intit index.html
+
+[1mdiff --git a/Portfolio/.DS_Store b/Portfolio/.DS_Store[m
+[1mnew file mode 100644[m
+[1mindex 0000000..fcece06[m
+Binary files /dev/null and b/Portfolio/.DS_Store differ
+[1mdiff --git a/Portfolio/Portfolio b/Portfolio/Portfolio[m
+[1mnew file mode 160000[m
+[1mindex 0000000..05de276[m
+[1m--- /dev/null[m
+[1m+++ b/Portfolio/Portfolio[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32mSubproject commit 05de276c10cfee1b6636afb45044c7bf3ebaf0a7[m
+[1mdiff --git a/Portfolio/index.html b/Portfolio/index.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..b011aed[m
+[1m--- /dev/null[m
+[1m+++ b/Portfolio/index.html[m
+[36m@@ -0,0 +1,313 @@[m
+[32m+[m[32m<!DOCTYPE html>[m
+[32m+[m[32m<html lang="en">[m
+[32m+[m[32m<head>[m
+[32m+[m[32m    <meta charset="UTF-8">[m
+[32m+[m[32m    <meta name="viewport" content="width=device-width, initial-scale=1.0">[m
+[32m+[m[32m    <title>Portfolio_Website</title>[m
+[32m+[m[32m    <link rel="stylesheet" href="styles.css">[m
+[32m+[m[32m</head>[m
+[32m+[m[32m<body>[m
+[32m+[m[32m    <div id="wrapper">[m
+[32m+[m[32m        <div class="container">[m
+[32m+[m
+[32m+[m[32m            <div class="navbar">[m
+[32m+[m
+[32m+[m
+[32m+[m[32m              <div class="logo-container">[m
+[32m+[m[32m               <img src="./userAsset/images.jfif" class="logo">[m
+[32m+[m[32m               <div class="logo-text">aurav Kumar</div>[m
+[32m+[m[32m              </div>[m[41m  [m
+[32m+[m
+[32m+[m[32m              <div class="nav-items">[m
+[32m+[m[32m                <div><a href="#projects">Projects</a></div>[m
+[32m+[m[32m                <div><a href="#skills">Skills</a></div>[m
+[32m+[m[32m                <div><a href="#contactme">Contact ME</a></div>[m
+[32m+[m[32m              </div>[m
+[32m+[m[32m            </div>[m
+[32m+[m[41m        [m
+[32m+[m
+[32m+[m[32m        <div class="hero-section">[m
+[32m+[m
+[32m+[m[32m          <div class="faded-text"> Saurav Kumar</div>[m
+[32m+[m
+[32m+[m[32m          <div class="hero-section-left">[m
+[32m+[m
+[32m+[m[32m            <div class="hero-section-heading">Hi! Saurav Kumar</div>[m
+[32m+[m
+[32m+[m[32m            <div class="hero-section-heading hero-section-sub-heading">[m
+[32m+[m[32m              I am a <span class="role"></span>[m
+[32m+[m[32m            </div>[m
+[32m+[m
+[32m+[m[32m            <div class="hero-section-description">[m
+[32m+[m
+[32m+[m[32m              I'm a software developer and this is my portfolio website. Here you'll[m
+[32m+[m[32m              learn about my journey as a software developer[m
+[32m+[m[32m            </div>[m
+[32m+[m
+[32m+[m[32m            <div class="btn-pink" id="button">Hire Me</div>[m
+[32m+[m[32m          </div>[m
+[32m+[m
+[32m+[m[32m          <div class="hero-section-right">[m
+[32m+[m[32m            <div class="absolute icons icon-dots">[m
+[32m+[m[32m              <img src="./userAsset/dots.png" alt="">[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m            <div class="absolute icons icon-cube">[m
+[32m+[m[32m              <img src="./userAsset/cube.png" alt="">[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m            <div class="absolute icons icon-circle">[m
+[32m+[m[32m              <img src="./userAsset/circle.png" alt="">[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m            <div class="absolute icons icon-zigzag">[m
+[32m+[m[32m              <img src="./userAsset/zigzags.png" alt="">[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m            <div class="absolute icons icon-plus">[m
+[32m+[m[32m              <img src="./userAsset/plus.png" alt="">[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m            <div class="user-image">[m
+[32m+[m[32m              <img src="./projects/IMG_20230331_082145_609.jpg" alt="">[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m          </div>[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m    </div>[m
+[32m+[m
+[32m+[m[32m    <div class="project-section">[m
+[32m+[m[32m      <h2 class="page-header">Projects</h2>[m
+[32m+[m[32m      <div class="project-container">[m
+[32m+[m[32m        <div class="project-card" id="project1">[m
+[32m+[m[32m          <div class="project-number project-number-right ">01</div>[m
+[32m+[m[32m          <div class="project-content project-content-left">[m
+[32m+[m[32m            <div class="project-skills-container">[m
+[32m+[m[32m              <img class="project-skill" src="./stack/HTML.png">[m
+[32m+[m[32m              <img class="project-skill" src="./stack/CSS.png">[m
+[32m+[m[32m              <img class="project-skill" src="./stack/Javascript.svg">[m
+[32m+[m[32m              <img class="project-skill" src="./stack/Express.png">[m
+[32m+[m[32m              <img class="project-skill" src="./stack/NextJsCircle.png">[m
+[32m+[m[32m              <img class="project-skill" src="./stack/Tailwind.png">[m
+[32m+[m[32m              <img class="project-skill" src="./stack/NodeJs.svg">[m
+[32m+[m[32m              <img class="project-skill" src="./stack/MongoDB.svg">[m
+[32m+[m[32m              <img class="project-skill" src="./stack/Redux.svg">[m
+[32m+[m[32m              <img class="project-skill" src="./stack/Vercel.svg">[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m            <h2 class="project-heading">Tint & Orange</h2>[m
+[32m+[m[32m            <p class="project-subheading">Its is a car modification copany[m[41m [m
+[32m+[m[32m              which provide you sheets to protect your car from scratch[m
+[32m+[m[32m            </p>[m
+[32m+[m[32m            <div class="btn-group">[m
+[32m+[m[32m              <button class="btn-pink btn-project">Read More</button>[m
+[32m+[m[32m              <a href="">[m
+[32m+[m[32m              <i title="GitHubLink" class="fa-brands fa-github icon"></i>[m
+[32m+[m[32m              </a>[m
+[32m+[m[32m              <a href="">[m
+[32m+[m[32m              <i title="Live Link" class="fa-solid fa-link icon"></i>[m
+[32m+[m[32m              </a>[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m        <div class="project-card" id="project2">[m
+[32m+[m[32m          <div class="project-number project-number-left ">02</div>[m
+[32m+[m[32m          <div class="project-content project-content-right ">[m
+[32m+[m[32m            <div class="project-skills-container">[m
+[32m+[m[32m              <img class="project-skill" src="./stack/HTML.png">[m
+[32m+[m[32m              <img class="project-skill" src="./stack/CSS.png">[m
+[32m+[m[32m              <img class="project-skill" src="./stack/Javascript.svg">[m
+[32m+[m
+[32m+[m[32m              <img class="project-skill" src="./stack/NextJsCircle.png">[m
+[32m+[m[32m              <img class="project-skill" src="./stack/Tailwind.png">[m
+[32m+[m
+[32m+[m[32m              <img class="project-skill" src="./stack/Redux.svg">[m
+[32m+[m[32m              <img class="project-skill" src="./stack/Vercel.svg">[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m            <h2 class="project-heading">Breaking Copyrights</h2>[m
+[32m+[m[32m            <p class="project-subheading"> A platform to download copyrights free youtube music[m
+[32m+[m[32m            </p>[m
+[32m+[m[32m            <div class="btn-group">[m
+[32m+[m[32m              <button class="btn-pink btn-project">Read More</button>[m
+[32m+[m[32m              <a href="">[m
+[32m+[m[32m              <i title="GitHubLink" class="fa-brands fa-github icon"></i>[m
+[32m+[m[32m              </a>[m
+[32m+[m[32m              <a href="">[m
+[32m+[m[32m              <i title="Live Link" class="fa-solid fa-link icon"></i>[m
+[32m+[m[32m              </a>[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m        <div class="project-card" id="project3">[m
+[32m+[m[32m          <div class="project-number project-number-right">03</div>[m
+[32m+[m[32m          <div class="project-content project-content-left">[m
+[32m+[m[32m            <div class="project-skills-container">[m
+[32m+[m[32m              <img class="project-skill" src="./stack/HTML.png">[m
+[32m+[m[32m              <img class="project-skill" src="./stack/CSS.png">[m
+[32m+[m[32m              <img class="project-skill" src="./stack/Javascript.svg">[m
+[32m+[m
+[32m+[m[32m              <img class="project-skill" src="./stack/NextJsCircle.png">[m
+[32m+[m[32m              <img class="project-skill" src="./stack/Tailwind.png">[m
+[32m+[m
+[32m+[m[32m              <img class="project-skill" src="./stack/Vercel.svg">[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m            <h2 class="project-heading">Isha Tattva</h2>[m
+[32m+[m[32m            <p class="project-sub-heading">[m
+[32m+[m[32m              A Website for interior designer to showcase her works and samples[m
+[32m+[m[32m            </p>[m
+[32m+[m[32m            <div class="btn-group">[m
+[32m+[m[32m              <button class="btn-pink btn-project">Read More</button>[m
+[32m+[m[32m              <a href="">[m
+[32m+[m[32m              <i title="GitHubLink" class="fa-brands fa-github icon"></i>[m
+[32m+[m[32m              </a>[m
+[32m+[m[32m              <a href="">[m
+[32m+[m[32m              <i title="Live Link" class="fa-solid fa-link icon"></i>[m
+[32m+[m[32m              </a>[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m        <div class="project-card" id="project4">[m
+[32m+[m[32m          <div class="project-number project-number-left">04</div>[m
+[32m+[m[32m          <div class="project-content project-content-right">[m
+[32m+[m[32m            <div class="project-skills-container">[m
+[32m+[m
+[32m+[m[32m              <img class="project-skill" src="./stack/NextJsCircle.png">[m
+[32m+[m[32m              <img class="project-skill" src="./stack/Tailwind.png">[m
+[32m+[m[41m         [m
+[32m+[m[32m              <img class="project-skill" src="./stack/Vercel.svg">[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m            <h2 class="project-heading">Granit</h2>[m
+[32m+[m[32m            <p class="project-sub-heading">[m
+[32m+[m[32m              A architectural website to plan your building or home (Hebrew[m
+[32m+[m[32m              Language)[m
+[32m+[m[32m            </p>[m
+[32m+[m[32m            <div class="btn-group">[m
+[32m+[m[32m              <button class="btn-pink btn-project">Read More</button>[m
+[32m+[m[32m              <a href="">[m
+[32m+[m[32m              <i title="GitHubLink" class="fa-brands fa-github icon"></i>[m
+[32m+[m[32m              </a>[m
+[32m+[m[32m              <a href="">[m
+[32m+[m[32m              <i title="Live Link" class="fa-solid fa-link icon"></i>[m
+[32m+[m[32m              </a>[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m      </div>[m
+[32m+[m[32m    </div>[m
+[32m+[m
+[32m+[m[32m   <div id="skills" class="container skills-container">[m
+[32m+[m[32m    <div class="skills-fade-text"> Skills</div>[m[41m [m
+[32m+[m
+[32m+[m
+[32m+[m[32m    <div class="skill-container-left">[m
+[32m+[m[32m      <h2 class="skill-heading">[m
+[32m+[m[32m        <span class="caps">M</span>e and[m
+[32m+[m[32m        <br >[m
+[32m+[m[32m        MyTech Stack[m
+[32m+[m[32m      </h2>[m
+[32m+[m
+[32m+[m[32m      <div class="skill-subHeading">[m
+[32m+[m[32m        <p>[m
+[32m+[m[32m          Hi Everyone My name is John Doe I am a Full Stack Web Developer I[m
+[32m+[m[32m          have been working for last 3 Years and Currently I am working with a[m
+[32m+[m[32m          Budding Startup in USA and a full Time Freelancer. Currently I am[m
+[32m+[m[32m          working on NextJs and Making Beautiful UI-UX are my fey features[m
+[32m+[m[32m        </p><br>[m
+[32m+[m[32m        <p>[m
+[32m+[m[32m          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non[m
+[32m+[m[32m          doloremque aspernatur, maiores voluptatum minus laudantium?[m
+[32m+[m[32m          Perspiciatis accusamus minima porro dolores necessitatibus, magni[m
+[32m+[m[32m          dolorem et qui veniam nulla sequi molestiae maxime.[m
+[32m+[m[32m        </p><br>[m
+[32m+[m[32m        <p>[m
+[32m+[m[32m          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quidem[m
+[32m+[m[32m          quos ullam veritatis voluptates tenetur qui ipsa nulla culpa itaque?[m
+[32m+[m[32m        </p>[m
+[32m+[m[32m      </div>[m
+[32m+[m[32m    </div>[m
+[32m+[m[32m    <div class="skill-container-right">[m
+[32m+[m[32m        <img src="./userAsset/blob vector.png" class="blob-style">[m
+[32m+[m[32m        <img class="skills-logo" src="./stack/HTML.png">[m
+[32m+[m[32m              <img class="skills-logo" src="./stack/CSS.png">[m
+[32m+[m[32m              <img class="skills-logo" src="./stack/Javascript.svg">[m
+[32m+[m[32m              <img class="skills-logo" src="./stack/Express.png">[m
+[32m+[m[32m              <img class="skills-logo" src="./stack/NextJsCircle.png">[m
+[32m+[m[32m              <img class="skills-logo" src="./stack/Tailwind.png">[m
+[32m+[m[32m              <img class="skills-logo" src="./stack/NodeJs.svg">[m
+[32m+[m[32m              <img class="skills-logo" src="./stack/MongoDB.svg">[m
+[32m+[m[32m              <img class="skills-logo" src="./stack/Redux.svg">[m
+[32m+[m[32m              <img class="skills-logo" src="./stack/Vercel.svg">[m
+[32m+[m[32m              <img class="skills-logo" src="./stack/K8s.svg" >[m
+[32m+[m[32m              <img class="skills-logo" src="./stack/Javascript.svg">[m
+[32m+[m[32m              <img class="skills-logo" src="./stack/Express.png">[m
+[32m+[m[32m              <img class="skills-logo" src="./stack/NextJsCircle.png">[m
+[32m+[m[32m              <img src="./stack/Bootstrap.svg" class="skills-logo">[m
+[32m+[m[32m              <img class="skills-logo" src="./stack/NextJsCircle.png">[m
+[32m+[m[32m              <img class="skills-logo" src="./stack/Tailwind.png">[m
+[32m+[m[32m              <img class="skills-logo" src="./stack/NodeJs.svg">[m
+[32m+[m[32m              <img class="skills-logo" src="./stack/NodeJs.svg">[m
+[32m+[m[32m              <img class="skills-logo" src="./stack/MongoDB.svg">[m
+[32m+[m
+[32m+[m
+[32m+[m[32m    </div>[m
+[32m+[m[32m  </div>[m
+[32m+[m
+[32m+[m[32m    <div class="contactus-form-container">[m
+[32m+[m[32m      <div class="container">[m
+[32m+[m[32m        <h1 class="contactus-heading">Contact me</h1>[m
+[32m+[m[32m        <h3 class="contactus-sub-heading">Question,thoughts,or just want to say hello?</h3>[m
+[32m+[m
+[32m+[m[32m        <div class="contactus-form-container">[m
+[32m+[m
+[32m+[m[32m          <form action="">[m
+[32m+[m[32m            <div class="form-feild-container">[m
+[32m+[m[32m               <input class="formfeild"                        /*inp likh ke ya fir sirf in likh ke enter karne par ye aajata hai type,name,id and placeholder */[m
+[32m+[m[32m              type="text"[m
+[32m+[m[32m              name="name"[m
+[32m+[m[32m              id=""[m
+[32m+[m[32m              placeholder="Enter your name"/>[m
+[32m+[m
+[32m+[m[32m              <input class="formfeild"[m[41m [m
+[32m+[m[32m              type="text"[m[41m [m
+[32m+[m[32m              name="email"[m
+[32m+[m[32m               id=""[m
+[32m+[m[32m               placeholder="Enter your email address"/>[m
+[32m+[m
+[32m+[m[32m              <input class="formfeild"[m[41m [m
+[32m+[m[32m              type="text"[m[41m [m
+[32m+[m[32m              name="subject"[m
+[32m+[m[32m               id=""[m
+[32m+[m[32m               placeholder="Enter your subject" />[m
+[32m+[m
+[32m+[m[32m               <textarea name="message"[m[41m [m
+[32m+[m[32m               id="" cols="30" rows="10"[m[41m [m
+[32m+[m[32m               class="formfeild formfeild-textarea"[m
+[32m+[m[32m               placeholder="ENter your message"></textarea>[m
+[32m+[m[32m        </div>[m
+[32m+[m
+[32m+[m[32m        <div>[m
+[32m+[m[41m          [m
+[32m+[m[32m        </div>[m
+[32m+[m
+[32m+[m[41m    [m
+[32m+[m[32m          </form>[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m      </div>[m
+[32m+[m[32m    </div>[m
+[32m+[m[32m  </div>[m
+[32m+[m
+[32m+[m[32m    <!-- Acche se apdhaya jayega baad me dont worry(The text below) -->[m
+[32m+[m
+[32m+[m[32m   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>[m
+[32m+[m[32m  <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>[m
+[32m+[m[32m  <script>[m
+[32m+[m[32m    var typeData = new Typed(".role", {[m
+[32m+[m[32m      strings: [[m
+[32m+[m[32m        "Full Stack Developer",[m
+[32m+[m[32m        "Web Developer",[m
+[32m+[m[32m        <!-- "UI-UX Designer", -->[m
+[32m+[m[32m        "Backend Developer",[m
+[32m+[m[32m        "Coder",[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      loop: true,[m
+[32m+[m[32m      typeSpeed: 100,[m
+[32m+[m[32m      backSpeed: 80,[m
+[32m+[m[32m      backDelay: 1000,[m
+[32m+[m[32m    });[m
+[32m+[m[32m  </script>[m
+[32m+[m[41m    [m
+[32m+[m[32m</body>[m
+[32m+[m[32m</html>[m
+\ No newline at end of file[m
+[1mdiff --git a/Portfolio/projects/IMG_20230331_082145_609.jpg b/Portfolio/projects/IMG_20230331_082145_609.jpg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..138894a[m
+Binary files /dev/null and b/Portfolio/projects/IMG_20230331_082145_609.jpg differ
+[1mdiff --git a/Portfolio/projects/Project1.png b/Portfolio/projects/Project1.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..2115aab[m
+Binary files /dev/null and b/Portfolio/projects/Project1.png differ
+[1mdiff --git a/Portfolio/projects/Project2.png b/Portfolio/projects/Project2.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..23c67c3[m
+Binary files /dev/null and b/Portfolio/projects/Project2.png differ
+[1mdiff --git a/Portfolio/projects/Project3.png b/Portfolio/projects/Project3.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..894b4d3[m
+Binary files /dev/null and b/Portfolio/projects/Project3.png differ
+[1mdiff --git a/Portfolio/projects/Project4.png b/Portfolio/projects/Project4.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..21ed873[m
+Binary files /dev/null and b/Portfolio/projects/Project4.png differ
+[1mdiff --git a/Portfolio/stack/.DS_Store b/Portfolio/stack/.DS_Store[m
+[1mnew file mode 100644[m
+[1mindex 0000000..c49e923[m
+Binary files /dev/null and b/Portfolio/stack/.DS_Store differ
+[1mdiff --git a/Portfolio/stack/Bash.svg b/Portfolio/stack/Bash.svg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..b3f3125[m
+[1m--- /dev/null[m
+[1m+++ b/Portfolio/stack/Bash.svg[m
+[36m@@ -0,0 +1,9 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<svg width="224px" height="256px" viewBox="0 0 224 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">[m
+[32m+[m[32m    <g>[m
+[32m+[m				[32m<path d="M207.953496,52.161792 L127.317154,4.28699154 C117.73318,-1.42899718 105.786545,-1.42899718 96.2025707,4.28699154 L15.5500822,52.161792 C5.848665,58.0143618 -0.0579442252,68.5395346 0.000428679482,79.8694336 L0.000428679482,175.602888 C-0.0522462707,186.927041 5.85362572,197.444768 15.5500822,203.294383 L96.186424,251.153037 C105.771373,256.86549 117.716059,256.86549 127.301008,251.153037 L207.937349,203.294383 C217.644962,197.44581 223.55812,186.9199 223.50315,175.586741 L223.50315,79.8694336 C223.561523,68.5395346 217.654913,58.0143618 207.953496,52.161792 Z" fill="#FFFFFF"></path>[m
+[32m+[m				[32m<path d="M208.411532,52.276683 L127.597582,4.29643402 C117.992498,-1.43214467 106.019549,-1.43214467 96.4144654,4.29643402 L15.5843327,52.276683 C5.86154721,58.1421436 -0.0580718526,68.6904991 0.000429623687,80.0453532 L0.000429623687,175.989669 C-0.0523613478,187.338765 5.86651886,197.879657 15.5843327,203.742157 L96.3982832,251.706224 C106.004343,257.431259 117.975339,257.431259 127.581399,251.706224 L208.39535,203.742157 C218.124345,197.880703 224.050527,187.331607 223.995435,175.973487 L223.995435,80.0453532 C224.053937,68.6904991 218.134318,58.1421436 208.411532,52.276683 Z M99.2301697,246.803014 L18.4162192,198.838948 C10.4300926,193.999639 5.56585934,185.327547 5.59969728,175.989669 L5.59969728,80.0453532 C5.56264048,70.7066408 10.4277023,62.033071 18.4162192,57.1960744 L99.2301697,9.21582548 C107.095348,4.52357839 116.900517,4.52357839 124.765695,9.21582548 L205.514917,57.1960744 C212.17156,61.2279088 216.712503,67.9889997 217.926671,75.6761569 C215.240424,69.9638372 209.20446,68.3941629 202.1652,72.4397151 L125.768992,119.756494 C116.237671,125.306991 109.214593,131.569506 109.19841,143.058874 L109.19841,237.271693 C109.19841,244.149132 111.965568,248.59924 116.237671,249.909999 C114.838668,250.166379 113.420175,250.301731 111.997932,250.314554 C107.503971,250.311263 103.093756,249.098314 99.2301697,246.803014 Z" fill="#2F3A3E"></path>[m
+[32m+[m				[32m<path d="M187.007319,185.05984 L166.920894,197.072944 C166.382945,197.289147 166.022425,197.801466 166.000535,198.380822 L166.000535,203.660774 C166.000535,204.30664 166.436494,204.564987 166.969334,204.2582 L187.362545,191.857577 C187.861962,191.483188 188.100868,190.854486 187.976118,190.242913 L187.976118,185.608826 C187.959971,185.0114 187.491719,184.753054 187.007319,185.05984 Z" fill="#3AB14A"></path>[m
+[32m+[m				[32m<path d="M144.262952,140.831868 C144.908817,140.508935 145.441657,140.831868 145.457803,141.752226 L145.52239,148.75987 C147.937868,147.662506 150.63266,147.335523 153.240486,147.823365 C153.741032,147.952538 153.950938,148.630697 153.757179,149.438029 L152.223247,155.5899 C152.106964,156.054178 151.867023,156.478259 151.528942,156.817045 C151.410206,156.934194 151.274035,157.032237 151.125276,157.107685 C150.94275,157.206405 150.732219,157.240546 150.52785,157.204565 C147.984993,156.641458 145.323113,157.068744 143.084247,158.399417 C139.810579,159.87411 137.670697,163.093345 137.578241,166.682645 C137.578241,169.911974 139.192905,170.800039 144.828084,170.896919 C152.271687,171.026092 155.501016,174.271568 155.581749,181.779758 C155.404525,189.616874 151.790949,196.979831 145.700003,201.914623 L145.829176,208.793094 C145.817697,209.647405 145.37394,210.437656 144.650471,210.892157 L140.581517,213.233421 C139.935651,213.556354 139.402812,213.233421 139.386665,212.329209 L139.386665,205.563765 C135.89899,207.016963 132.362875,207.356042 130.102345,206.45183 C129.682532,206.290364 129.488772,205.660645 129.666385,204.934046 L131.13573,198.717587 C131.24746,198.225629 131.499922,197.776809 131.862329,197.425856 C131.977267,197.315759 132.107853,197.223261 132.249848,197.151363 C132.460373,197.056728 132.701336,197.056728 132.911861,197.151363 C135.790274,197.931772 138.860474,197.542919 141.453436,196.069538 C145.195213,194.264929 147.626918,190.533412 147.766774,186.381551 C147.766774,182.893876 145.845323,181.440678 141.308116,181.408385 C135.446884,181.408385 130.005465,180.27812 129.892438,171.720398 C130.027305,164.244122 133.498017,157.21978 139.354372,152.570478 L139.063732,145.530541 C139.061125,144.663931 139.507025,143.857647 140.242437,143.399184 L144.262952,140.831868 Z" fill="#FFFFFF"></path>[m
+[32m+[m[32m    </g>[m
+[32m+[m[32m</svg>[m
+[1mdiff --git a/Portfolio/stack/Bootstrap.svg b/Portfolio/stack/Bootstrap.svg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..7965e4c[m
+[1m--- /dev/null[m
+[1m+++ b/Portfolio/stack/Bootstrap.svg[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32m<svg height="1992" viewBox="0 0 512 407.864" width="2500" xmlns="http://www.w3.org/2000/svg"><path d="m106.344 0c-29.214 0-50.831 25.57-49.863 53.3.929 26.641-.278 61.145-8.964 89.283-8.717 28.217-23.449 46.098-47.517 48.393v25.912c24.068 2.3 38.8 20.172 47.516 48.393 8.687 28.138 9.893 62.642 8.964 89.283-.968 27.726 20.649 53.3 49.868 53.3h299.347c29.214 0 50.827-25.57 49.859-53.3-.929-26.641.278-61.145 8.964-89.283 8.717-28.221 23.413-46.1 47.482-48.393v-25.912c-24.068-2.3-38.764-20.172-47.482-48.393-8.687-28.134-9.893-62.642-8.964-89.283.968-27.726-20.645-53.3-49.859-53.3h-299.355zm240.775 251.067c0 38.183-28.481 61.34-75.746 61.34h-80.458a8.678 8.678 0 0 1 -8.678-8.678v-199.593a8.678 8.678 0 0 1 8.678-8.678h80c39.411 0 65.276 21.348 65.276 54.124 0 23.005-17.4 43.6-39.567 47.208v1.2c30.176 3.31 50.495 24.21 50.495 53.077zm-84.519-128.1h-45.876v64.8h38.639c29.87 0 46.34-12.028 46.34-33.527-.003-20.148-14.163-31.273-39.103-31.273zm-45.876 90.511v71.411h47.564c31.1 0 47.573-12.479 47.573-35.931s-16.935-35.484-49.573-35.484h-45.564z" fill="#7952b3" fill-rule="evenodd"/></svg>[m
+\ No newline at end of file[m
+[1mdiff --git a/Portfolio/stack/CSS.png b/Portfolio/stack/CSS.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..d897f0f[m
+Binary files /dev/null and b/Portfolio/stack/CSS.png differ
+[1mdiff --git a/Portfolio/stack/ChartJs.svg b/Portfolio/stack/ChartJs.svg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..24f5a2b[m
+[1m--- /dev/null[m
+[1m+++ b/Portfolio/stack/ChartJs.svg[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32m<svg width="160" height="160" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg"><title>Artboard 6</title><g fill="none" fill-rule="evenodd"><path d="M144.086 80.568c-21.978.43-17.402 14.346-32.89 17.866C95.46 102.01 92.975 60 77.243 60c-15.733 0-19.216 40.806-38.918 68.823l-.56.794L80 154l64.086-37V80.568z" fill="#36A2EB"/><path d="M144.086 79.3C136.726 69.856 131.736 59 121 59c-19 0-14 31-35 31s-23.207-33.346-47-2c-7.58 9.988-13.682 21.124-18.475 31.662L80 154l64.086-37V79.3z" fill="#FFCE56"/><path d="M15.914 92.143C23.124 72.173 26.237 56 40 56c21 0 26 59 44 53s16-38 44-38c5.33 0 10.772 3.263 16.086 8.546V117L80 154l-64.086-37V92.143z" fill-opacity=".8" fill="#FE6184"/><path stroke="#E7E9ED" stroke-width="8" d="M80 6l64.086 37v74L80 154l-64.086-37V43z"/></g></svg>[m
+\ No newline at end of file[m
+[1mdiff --git a/Portfolio/stack/Docker.svg b/Portfolio/stack/Docker.svg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..6f66bd3[m
+[1m--- /dev/null[m
+[1m+++ b/Portfolio/stack/Docker.svg[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32m<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="96px" height="96px"><path fill="#2395ec" d="M47.527,19.847c-0.13-0.102-1.345-1.007-3.908-1.007c-0.677,0.003-1.352,0.06-2.019,0.171 c-0.496-3.354-3.219-4.93-3.345-5.003l-0.688-0.392l-0.453,0.644c-0.567,0.866-1.068,1.76-1.311,2.763 c-0.459,1.915-0.18,3.713,0.806,5.25C35.417,22.928,33.386,22.986,33,23H1.582c-0.826,0.001-1.496,0.66-1.501,1.474 c-0.037,2.733,0.353,5.553,1.306,8.119c1.089,2.818,2.71,4.894,4.818,6.164C8.567,40.184,12.405,41,16.756,41 c1.965,0.006,3.927-0.169,5.859-0.524c2.686-0.487,5.271-1.413,7.647-2.74c1.958-1.119,3.72-2.542,5.219-4.215 c2.505-2.798,3.997-5.913,5.107-8.682c0.149,0,0.298,0,0.442,0c2.743,0,4.429-1.083,5.359-1.99 c0.618-0.579,1.101-1.284,1.414-2.065L48,20.216L47.527,19.847z"/><path fill="#2395ec" d="M8,22H5c-0.552,0-1-0.448-1-1v-3c0-0.552,0.448-1,1-1h3c0.552,0,1,0.448,1,1v3 C9,21.552,8.552,22,8,22z"/><path fill="#2395ec" d="M14,22h-3c-0.552,0-1-0.448-1-1v-3c0-0.552,0.448-1,1-1h3c0.552,0,1,0.448,1,1v3 C15,21.552,14.552,22,14,22z"/><path fill="#2395ec" d="M20,22h-3c-0.552,0-1-0.448-1-1v-3c0-0.552,0.448-1,1-1h3c0.552,0,1,0.448,1,1v3 C21,21.552,20.552,22,20,22z"/><path fill="#2395ec" d="M26,22h-3c-0.552,0-1-0.448-1-1v-3c0-0.552,0.448-1,1-1h3c0.552,0,1,0.448,1,1v3 C27,21.552,26.552,22,26,22z"/><path fill="#2395ec" d="M14,16h-3c-0.552,0-1-0.448-1-1v-3c0-0.552,0.448-1,1-1h3c0.552,0,1,0.448,1,1v3 C15,15.552,14.552,16,14,16z"/><path fill="#2395ec" d="M20,16h-3c-0.552,0-1-0.448-1-1v-3c0-0.552,0.448-1,1-1h3c0.552,0,1,0.448,1,1v3 C21,15.552,20.552,16,20,16z"/><path fill="#2395ec" d="M26,16h-3c-0.552,0-1-0.448-1-1v-3c0-0.552,0.448-1,1-1h3c0.552,0,1,0.448,1,1v3 C27,15.552,26.552,16,26,16z"/><path fill="#2395ec" d="M26,10h-3c-0.552,0-1-0.448-1-1V6c0-0.552,0.448-1,1-1h3c0.552,0,1,0.448,1,1v3 C27,9.552,26.552,10,26,10z"/><path fill="#2395ec" d="M32,22h-3c-0.552,0-1-0.448-1-1v-3c0-0.552,0.448-1,1-1h3c0.552,0,1,0.448,1,1v3 C33,21.552,32.552,22,32,22z"/></svg>[m
+\ No newline at end of file[m
+[1mdiff --git a/Portfolio/stack/Express.png b/Portfolio/stack/Express.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..568baba[m
+Binary files /dev/null and b/Portfolio/stack/Express.png differ
+[1mdiff --git a/Portfolio/stack/Git.svg b/Portfolio/stack/Git.svg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e52b883[m
+[1m--- /dev/null[m
+[1m+++ b/Portfolio/stack/Git.svg[m
+[36m@@ -0,0 +1,5 @@[m
+[32m+[m[32m<!-- Generated by IcoMoon.io -->[m
+[32m+[m[32m<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">[m
+[32m+[m[32m<title>git</title>[m
+[32m+[m[32m<path fill="#f05032" d="M31.395 14.573l-13.972-13.971c-0.805-0.804-2.109-0.804-2.917 0l-2.895 2.9 3.68 3.68c0.86-0.287 1.839-0.093 2.519 0.588 0.688 0.687 0.877 1.677 0.584 2.533l3.544 3.547c0.86-0.297 1.849-0.104 2.533 0.58 0.961 0.96 0.961 2.512 0 3.472-0.959 0.959-2.508 0.959-3.467 0-0.719-0.721-0.899-1.783-0.539-2.661l-3.319-3.301v8.7c0.235 0.115 0.456 0.271 0.651 0.464 0.951 0.961 0.951 2.511 0 3.467-0.959 0.961-2.519 0.961-3.479 0-0.959-0.959-0.959-2.505 0-3.464 0.243-0.24 0.516-0.421 0.807-0.541v-8.785c-0.289-0.121-0.565-0.296-0.8-0.535-0.727-0.727-0.901-1.789-0.528-2.679l-3.616-3.633-9.581 9.575c-0.8 0.807-0.8 2.112 0 2.919l13.973 13.969c0.805 0.805 2.109 0.805 2.915 0l13.907-13.907c0.807-0.804 0.807-2.109 0-2.916z"></path>[m
+[32m+[m[32m</svg>[m
+[1mdiff --git a/Portfolio/stack/Github.svg b/Portfolio/stack/Github.svg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..985f3e3[m
+[1m--- /dev/null[m
+[1m+++ b/Portfolio/stack/Github.svg[m
+[36m@@ -0,0 +1,5 @@[m
+[32m+[m[32m<!-- Generated by IcoMoon.io -->[m
+[32m+[m[32m<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">[m
+[32m+[m[32m<title>github</title>[m
+[32m+[m[32m<path d="M16 0.396c-8.84 0-16 7.164-16 16 0 7.071 4.584 13.067 10.94 15.18 0.8 0.151 1.093-0.344 1.093-0.769 0-0.38-0.013-1.387-0.020-2.72-4.451 0.965-5.389-2.147-5.389-2.147-0.728-1.847-1.78-2.34-1.78-2.34-1.449-0.992 0.112-0.972 0.112-0.972 1.607 0.112 2.451 1.648 2.451 1.648 1.427 2.447 3.745 1.74 4.66 1.331 0.144-1.035 0.556-1.74 1.013-2.14-3.553-0.4-7.288-1.776-7.288-7.907 0-1.747 0.62-3.173 1.647-4.293-0.18-0.404-0.72-2.031 0.14-4.235 0 0 1.34-0.429 4.4 1.64 1.28-0.356 2.64-0.532 4-0.54 1.36 0.008 2.72 0.184 4 0.54 3.040-2.069 4.38-1.64 4.38-1.64 0.86 2.204 0.32 3.831 0.16 4.235 1.020 1.12 1.64 2.547 1.64 4.293 0 6.147-3.74 7.5-7.3 7.893 0.56 0.48 1.080 1.461 1.080 2.96 0 2.141-0.020 3.861-0.020 4.381 0 0.42 0.28 0.92 1.1 0.76 6.401-2.099 10.981-8.099 10.981-15.159 0-8.836-7.164-16-16-16z"></path>[m
+[32m+[m[32m</svg>[m
+[1mdiff --git a/Portfolio/stack/Graphql.svg b/Portfolio/stack/Graphql.svg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..afa84f3[m
+[1m--- /dev/null[m
+[1m+++ b/Portfolio/stack/Graphql.svg[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32m<svg width="2222" height="2500" viewBox="0 0 256 288" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><path d="M152.576 32.963l59.146 34.15a25.819 25.819 0 0 1 5.818-4.604c12.266-7.052 27.912-2.865 35.037 9.402 7.052 12.267 2.865 27.912-9.402 35.037a25.698 25.698 0 0 1-6.831 2.72v68.325a25.7 25.7 0 0 1 6.758 2.702c12.34 7.125 16.527 22.771 9.402 35.038-7.052 12.266-22.771 16.453-35.038 9.402a25.464 25.464 0 0 1-6.34-5.147l-58.786 33.94a25.671 25.671 0 0 1 1.295 8.08c0 14.103-11.458 25.636-25.635 25.636-14.177 0-25.635-11.46-25.635-25.636 0-2.52.362-4.954 1.037-7.253l-59.13-34.14a25.824 25.824 0 0 1-5.738 4.52c-12.34 7.051-27.986 2.864-35.038-9.402-7.051-12.267-2.864-27.913 9.402-35.038a25.71 25.71 0 0 1 6.758-2.703v-68.324a25.698 25.698 0 0 1-6.831-2.72C.558 99.897-3.629 84
